@@ -6,14 +6,14 @@ server.name: kibana
 server.host: "0"
 elasticsearch.url: http://elasticsearch:9200
 
-sentinl:
-  settings:
-    authentication:
-      enabled: false
-    email:
-      active: true
-      host: beast-cave
-      ssl: false
-    report:
-      active: false
-      tmp_path: /tmp/
+#sentinl:
+#  settings:
+#    authentication:
+#      enabled: false
+#    email:
+#      active: true
+#      host: beast-cave
+#      ssl: false
+#    report:
+#      active: false
+#      tmp_path: /tmp/
